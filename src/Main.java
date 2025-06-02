@@ -1,16 +1,22 @@
 public class Main {
     public static void main(String[] args) {
-        int number = 0;
+        String mood = "angry";
+        // "happy" , "angry" , "sad" , etc.
 
-        if (number > 0) {
-            System.out.println("number는 양수입니다.");
-        } else if (number < 0) {
-            System.out.println("number는 음수입니다.");
-        } else {
-            System.out.println("number는 0입니다");
+    switch (mood) {
+        case "happy":
+            System.out.println("행복하다");
+            break;
+
+        case "angry":
+            System.out.println("화가난다");
+            break;
+
+        case "sad":
+            System.out.println("슬프다");
+            break;
+
+
         }
-
-
-
     }
 }
